@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Quota auto-resume">
+  <defs>
+    <linearGradient id="qa-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7bf6" />
+      <stop offset="1" stop-color="#0b3d91" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#qa-bg)" />
+  <circle cx="31" cy="35" r="16" fill="#ffffff" opacity="0.95" />
+  <g stroke="#0b3d91" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M31 27v8.4l5.6 3.8" />
+    <path d="M31 22.4v1.8" />
+  </g>
+  <path d="M45.5 19.5A12.5 12.5 0 0 1 50 31.5" fill="none" stroke="#7ee787" stroke-width="3.4" stroke-linecap="round" />
+  <path d="M45.6 28.4 50.4 33.2 55 28.6" fill="none" stroke="#7ee787" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

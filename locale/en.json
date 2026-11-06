@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Quota Auto-Resume",
+    "description": "Parks tasks that stopped when the plan quota ran out and resumes them at the next quota reset (05:00, 10:00, 15:00, 20:00, 24:00 by default)."
+  }
+}

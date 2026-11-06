@@ -1,0 +1,26 @@
+{
+  "name": "@local/dsh-quota-autoresume",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Resumes DeepSeek Harness tasks that stopped when the plan quota ran out, right after the next quota reset.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "schedule.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "test/*.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

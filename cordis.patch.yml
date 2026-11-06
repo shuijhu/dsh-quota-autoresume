@@ -1,0 +1,18 @@
+- insert:
+    - id: quota-autoresume
+      name: '@local/dsh-quota-autoresume'
+      config:
+        enabled: true
+        # Local wall-clock hours at which the plan quota resets. 24 means midnight.
+        resetHours:
+          - 5
+          - 10
+          - 15
+          - 20
+          - 24
+        # Message handed to a parked task once the quota is back.
+        resumeMessage: '套餐额度已重置。请继续之前因额度耗尽而中断的任务，从中断处接着做，不要重复已完成的部分；如果任务其实已经完成，只需说明结论。'
+        # Treat every turn error as a quota stop instead of only quota-shaped ones.
+        detectAllErrors: false
+        # Maximum resume attempts per parked task. 0 means unlimited.
+        maxAttempts: 0
