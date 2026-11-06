@@ -2,7 +2,7 @@
 
 A DeepSeek Harness plugin that keeps a task alive across a plan-quota reset.
 
-[![dsh-plugin](https://img.shields.io/badge/label-dsh--plugin-0969da)](https://github.com/calesthio/dsh-quota-autoresume/labels/dsh-plugin)
+[![dsh-plugin](https://img.shields.io/badge/label-dsh--plugin-0969da)](https://github.com/shuijhu/dsh-quota-autoresume/labels/dsh-plugin)
 
 ## What it does
 
@@ -23,7 +23,7 @@ task is resumed immediately. Every action is appended to `plugin.log`.
 ## Install
 
 ```bash
-git clone https://github.com/calesthio/dsh-quota-autoresume.git
+git clone https://github.com/shuijhu/dsh-quota-autoresume.git
 ```
 
 Then install the cloned directory as a bundle — in the Harness Web UI under
